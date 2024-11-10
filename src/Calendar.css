@@ -1,0 +1,25 @@
+.toastui-calendar-timegrid {
+  height: 80% !important;
+}
+.title {
+  display: flex;
+  justify-content: flex-start; /* ButtonGroup을 왼쪽에 배치 */
+  align-items: center; /* 세로 가운데 정렬 */
+  width: 100%;
+  position: relative; /* 가운데 정렬을 위한 기준 설정 */
+}
+
+.center-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 요소들 수평 가운데 정렬 */
+  position: absolute; /* 가운데로 고정 */
+  left: 50%; /* 화면 중앙에 위치 */
+  transform: translateX(-50%); /* 정확히 중앙으로 이동 */
+}
+
+.render-range {
+  margin: 0 10px; /* render-range 양옆 여백 */
+  font-size: 28px;
+  font-weight: bold;
+}
